@@ -1,6 +1,4 @@
-import typer
 from pathlib import Path
-from ssg.site import Site
 
 class Site:
     def __init__(self, source, dest):
